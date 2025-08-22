@@ -87,16 +87,72 @@ car = {
 
 # car["year"] = 
 
-print(car) #before the 
-car.update({"year":2020})
-car.update({"color":"red"})
-print(car) # after
+# print(car) #before the 
+# car.update({"year":2020})
+# car.update({"color":"red"})
+# print(car) # after
 
-# print(x) # after
+# # print(x) # after
 
 
-if "brand" in car:
-  print("Yes, 'brand' is one of the keys in the thisdict dictionary")
-else:
-  print("No, 'brand' is one of the keys in the thisdict dictionary")
+# if "brand" in car:
+#   print("Yes, 'brand' is one of the keys in the thisdict dictionary")
+# else:
+#   print("No, 'brand' is one of the keys in the thisdict dictionary")
   
+
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.pop("brand")
+# thisdict.popitem()
+
+# if "brand" in thisdict:
+#   del thisdict["brand"]
+# else:
+#   thisdict["hello"] ="Mutahir"
+# print("after >>>>>>>>",thisdict)
+# # del thisdict
+# thisdict.clear()
+# print("before",thisdict)
+
+
+users = {
+  "name" :"Muhammad Mutahir",
+  "age":20,
+}
+# print(users["name"])
+
+# for y in users.keys():
+#   print(y)
+  
+# for x in users.values():
+#   print(x)
+  
+# for x ,y in users.items():
+#   print(x,y)
+
+# newUser = users.copy()
+# # newUser = dict(users)
+
+
+# print(newUser)
+
+students = {
+  "st_1" :{
+    "name":"Ali",
+    "age":20,
+    "roll":12345
+  },
+    "st_2" :{
+    "name":"Hamad",
+    "age":20,
+    "roll":85545
+  }
+}
+
+print(students["st_1"]["name"])
