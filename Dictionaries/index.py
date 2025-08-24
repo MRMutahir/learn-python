@@ -172,42 +172,42 @@
 
 # 📝 Python Dictionary Practice Questions
 
-student = {"name": "Mutahir", "age": 21, "city": "Karachi"}
-# print("name",student["name"])
-# print("age",student["age"])
-# print("city",student['city'])
-student["skills"] =["Python","Javascript"]
-name = student.get("name")
+# student = {"name": "Mutahir", "age": 21, "city": "Karachi"}
+# # print("name",student["name"])
+# # print("age",student["age"])
+# # print("city",student['city'])
+# student["skills"] =["Python","Javascript"]
+# name = student.get("name")
 # print(name)
 # print("student",student)
 # print("type student",type(student))
 
 
-car = {"brand": "Toyota", "model": "Corolla", "year": 2020}
+# car = {"brand": "Toyota", "model": "Corolla", "year": 2020}
 
-car["model"] = "Yaris"
+# car["model"] = "Yaris"
 
-car["color"] = "white"
+# car["color"] = "white"
 
-del car["year"]
+# del car["year"]
 
 # print("car",car)
 
 
-user = {"username": "mutahir", "password": "1234"}
+# user = {"username": "mutahir", "password": "1234"}
 
-user["password"] = "hash"
+# user["password"] = "hash"
 
 # if "email" in user:
 #   print("you are successful login")
 # else:
 #   print("User not found")
 
-marks = {"math": 90, "english": 85, "science": 92}
+# marks = {"math": 90, "english": 85, "science": 92}
 
-allKeys = marks.keys()
-allValue = marks.values()
-allKeysAndValue = marks.items()
+# allKeys = marks.keys()
+# allValue = marks.values()
+# allKeysAndValue = marks.items()
 # print("allKeys",allKeys)
 # print("allValue",allValue)
 # print("allKeysAndValue",allKeysAndValue)
@@ -216,22 +216,22 @@ allKeysAndValue = marks.items()
   # print(f"{x}:{y}")
 
 
-students = {
-    "student1": {"name": "Ali", "age": 20},
-    "student2": {"name": "Ahmed", "age": 22}
-}
+# students = {
+#     "student1": {"name": "Ali", "age": 20},
+#     "student2": {"name": "Ahmed", "age": 22}
+# }
 # print( "Student1 ka name", students["student1"]["name"])
 # print( "Student2 ka age", students["student2"]["age"])
 
-cart = {
-    "shoes": 2,
-    "t-shirt": 3,
-    "watch": 1
-}
+# cart = {
+#     "shoes": 2,
+#     "t-shirt": 3,
+#     "watch": 1
+# }
 
 # totalItem = cart["shoes"] + cart["t-shirt"] + cart["watch"]
 # print("totalItem",totalItem)
-getValue = sum(cart.values())
+# getValue = sum(cart.values())
 # cart["cap"] =2
 # print("cart",cart)
 # cart.pop("cap")
@@ -239,18 +239,164 @@ getValue = sum(cart.values())
 # print("getValue",getValue)
 
 
-employees = {
-    "emp1": {"name": "Ali", "salary": 50000},
-    "emp2": {"name": "Ahmed", "salary": 60000},
-    "emp3": {"name": "Sara", "salary": 70000}
-}
+# employees = {
+#     "emp1": {"name": "Ali", "salary": 50000},
+#     "emp2": {"name": "Ahmed", "salary": 60000},
+#     "emp3": {"name": "Sara", "salary": 70000}
+# }
 
 # employee = employees.items()
 # print(employees)
 
-for singleEm in employees.values():
-  number = singleEm["salary"]
-  # print(average)
+# for singleEm in employees.values():
+#   number = singleEm["salary"]
+#   # print(average)
   
 
-print(number)
+# print(number)
+
+
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# car.clear()
+
+# print(car)
+
+# x = ('key1', 'key2', 'key3')
+# y = 0
+
+# print(x)
+# print(type(x))
+
+# thisDis = dict.fromkeys(x,y)
+# print("thisDis",thisDis)
+
+# x = ('key1', 'key2', 'key3')
+
+# thisdict = dict.fromkeys(x)
+
+# print(thisdict)
+
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# x = car.get("mr", 15000)
+
+# print(x)
+# print(car)
+
+
+# cart = {"shoes": 2, "t-shirt": 3, "watch": 1}
+# cart.clear()
+# print("cart >>>>>>>>>>>",cart)
+
+
+# student = {"name": "Mutahir", "age": 21, "skills": ["Python", "JavaScript"]}
+# copyStudents = student.copy()
+# student["year"] = "2026"
+# print("students",copyStudents)
+# print("student",student)
+
+
+# fields = ["id", "name", "age"]
+
+# x = dict.fromkeys(fields,"Not Assigned")
+# print(x)
+
+
+# employee = {"name": "Ali", "salary": 50000}
+
+# x = employee.get("bonus")
+# if x == None:
+#   print("bonus dose not exixt")
+
+
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# x = car.setdefault("color", "white")
+
+# print(x)
+# print(car)
+
+# print(x := 3)
+
+# is_logged_in = True
+
+# print(not(is_logged_in))
+
+
+
+# x = int("10")     # String → Int
+# y = int(5.9)      # Float → Int (decimal part remove ho jayega)
+# print(x, y)       # 10 5
+
+# print(type(x))
+
+
+# y = float(5)       # Int → Float
+# print(y) 
+
+# age = input("Enter your age")
+# age = int(age)
+# print(age)
+# print(type(age))
+
+
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua"""
+
+
+
+# country = "Programming"
+
+# print(country[8:11])
+# print(country[-3:])
+
+# a = " Hello, World!       Muhammad Mutahir    "
+# print(len(a))
+
+# x = a
+# print(len(x.strip()))
+
+
+# a = "Hello, World!"
+
+# print(a.replace("World","SALAM"))
+
+
+# a = "Hello, World!"
+
+# print(a.split(", "))
+
+
+# age = 36
+# #This will produce an error:
+# txt = "My name is John, I am " + age
+# print(txt)
+
+
+# msg = "Dear Mutahir,\n\tWelcome to Python class.\nBest Regards,\nAdmin"
+
+# print(msg)
+
+# msg = "She said, \"It\'s Python!\""
+# print(msg)
+
+
+# print()
+# print()
+# print()
+# print()
